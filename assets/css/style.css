@@ -40,6 +40,12 @@ body {
     color: #C0C0C0;
 }
 
+.site-wide-alert a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #ff6b07;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -63,7 +69,7 @@ body {
     margin-bottom: 0;
     border: 0;
     width: 100%;
-    
+
 }
 
 .navbar .navbar-toggler {
@@ -88,6 +94,19 @@ body {
 .navbar-light .navbar-brand:hover {
     color: #8B4513;
 }
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: white
+}
+
+.nav-link a:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+
+}
+
+
 
 /* -----------------------------Carousel */
 
@@ -119,18 +138,15 @@ body {
 
 /* -----------------------------Footer */
 
-
 footer {
     background-color: #00408a;
     color: #fafafa;
     min-height: 120px;
-    margin: 0;
+    padding: 1em;
+    width: 100%;
+    top: 100%;
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
-
 
 .social-links {
     padding-bottom: 15px;
@@ -159,4 +175,17 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+.footer-email {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #C0C0C0;
+    
+}
+
+.footer-email:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #ff6b07;
 }
