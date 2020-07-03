@@ -4,7 +4,18 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* -----------------------------alert bar */
+
+.general-sub {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
+}
+
+/* -----------------------------alert bar */
+
 .site-wide-alert {
     border-radius: 0;
     margin-bottom: 0;
@@ -28,5 +39,110 @@ padding-right: 0;
 
 /* -----------------------------Nav bar */
 .bg-navbar {
+    background-color: #00408a;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
     
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar a {
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fafafa;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fafafa;
+}
+
+.navbar-light .navbar-brand {
+    color: #ff6b07;
+}
+.navbar-light .navbar-brand:hover {
+    color: #8B4513;
+}
+
+/* -----------------------------Carousel */
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* -----------------------------Footer */
+
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
 }
