@@ -5,13 +5,21 @@ body {
 }
 
 
-/* -----------------------------alert bar */
-
-.general-sub {
+/* -----------------------------fonts */
+.heading {
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-    
+    font-weight: 500;
+    color: #ff6b07;
+}
+
+.paragraph-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #fafafa
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* -----------------------------alert bar */
@@ -33,8 +41,8 @@ body {
 }
 
 .alert-container .col-12 {
-padding-left: 0;
-padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /* -----------------------------Nav bar */
@@ -103,11 +111,17 @@ padding-right: 0;
   height: 32rem;
 }
 
+.carousel-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #00408a;
+}
+
 /* -----------------------------Footer */
 
 
 footer {
-    background-color: #525252;
+    background-color: #00408a;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -140,7 +154,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #ff6b07;
 }
 
 #footer-details {
