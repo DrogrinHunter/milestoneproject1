@@ -45,6 +45,23 @@ body {
     color: #ff6b07;
     text-align: center;
 }
+
+.about-paragraph {
+    font-family: 'Poppins', sans-serif;
+    color: #00408a;
+}
+.jumbotron-heading {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600
+    
+}
+
+.jumbotron-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    color: #ff6b07;
+    font-weight: 500;
+}
 /* -----------------------------alert bar */
 
 .site-wide-alert {
@@ -197,6 +214,9 @@ body {
     
 }
 
+.block-divider--orange {
+    background-color: #ff6b07;
+}
 
 .block-divider--short {
     width: 35px;
@@ -264,10 +284,8 @@ footer {
 
 /* -----------------------------About Page */
 .jumbotron-image {
-    background-image: url(assets/images/jumbotron-image.png);
-    background-color: yellow;
-    height: 100%;
-    background-position: center;
+    background-image: url(../images/jumbotron-image.jpg);
+    background-color: #39FF14;
     background-repeat: no-repeat;
     background-size: auto;
     
@@ -277,4 +295,31 @@ footer {
 .jumbotron {
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+.features {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-divider {
+    width: 50%;
+    height: 5px;
+    border: 0;
+    background-color: #00408a;
+    margin-bottom: 50px;
+    
+}
+
+.mapouter {
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:1100px;;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:1100px;
 }
