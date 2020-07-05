@@ -22,6 +22,29 @@ body {
     text-transform: uppercase;
 }
 
+.carousel-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #00408a;
+}
+
+.quote-heading {
+    font-family: 'Poppins', sans-serif;
+    color: #fafafa;
+    text-align: center;
+}
+
+.footer-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    color: #fafafa;
+    text-align: center;
+}
+
+.footer-header {
+    font-family: 'Poppins', sans-serif;
+    color: #ff6b07;
+    text-align: center;
+}
 /* -----------------------------alert bar */
 
 .site-wide-alert {
@@ -130,10 +153,58 @@ body {
   height: 32rem;
 }
 
-.carousel-heading {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    color: #00408a;
+
+/* -----------------------------Quotes */
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+
+}
+
+.page-header h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+.container-wrapper--orange {
+    background-color: #ff6b07;
+    color: white;
+}
+
+
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #fff;
+
+    
+}
+
+
+.block-divider--short {
+    width: 35px;
+}
+
+/* -----------------------------Page Breaks */
+.page-break {
+    height: 50px;
 }
 
 /* -----------------------------Footer */
@@ -145,11 +216,12 @@ footer {
     padding: 1em;
     width: 100%;
     top: 100%;
-    position: absolute;
+    
 }
 
 .social-links {
     padding-bottom: 15px;
+    text-align: center;
 
 }
 
@@ -188,4 +260,21 @@ footer {
     text-decoration: underline;
     text-decoration-color: white;
     color: #ff6b07;
+}
+
+/* -----------------------------About Page */
+.jumbotron-image {
+    background-image: url(assets/images/jumbotron-image.png);
+    background-color: yellow;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+
+}
+
+.jumbotron {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
