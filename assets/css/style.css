@@ -62,6 +62,13 @@ body {
     color: #ff6b07;
     font-weight: 500;
 }
+
+.services-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #ff6b07;
+    text-align: center;
+}
 /* -----------------------------alert bar */
 
 .site-wide-alert {
@@ -365,6 +372,48 @@ button[type="submit"] {
     text-align: center;
 }
 
+/* -----------------------------Services */
+
+.services-jumbotron{
+    background-image: url(../images/brickwork.jpg);
+    background-color: #f8bf84;
+    background-repeat: no-repeat ;
+    background-size: 100% auto;
+
+}
+
+.services-link-to-gallery {
+    text-decoration: underline;
+    text-decoration-color: #ff6b07;
+    color: #00408a;
+}
+.services-link-to-gallery:hover {
+    text-decoration: underline;
+    text-decoration-color: #00408a;
+    color: #ff6b07;
+
+
+}
+
+/* -----------------------------Gallery */
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.gallery-column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
 /* -----------------------------Media Screen */
 
 @media screen and (max-width: 414px) {
@@ -375,4 +424,18 @@ button[type="submit"] {
     .jumbotron {
         display: none;
     }
+}
+
+@media screen and (max-width: 800px) {
+  .gallery-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .gallery-column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }

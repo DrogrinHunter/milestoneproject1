@@ -26,20 +26,20 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
+    <ul class="nav navbar-nav ml-auto ">
         <li class="nav-item mr-2">
             <a class="nav-link" href="index.html">Home <span class="sr-only">Home Page</span></a>
         </li>
-        <li class="active nav-item mr-2">
+        <li class="nav-item mr-2">
             <a class="nav-link " href="about.html">About Us <span class="sr-only">About Us</span></a>
         </li>
-        <li class="nav-item mr-2">
+        <li class=" nav-item mr-2">
             <a class="nav-link" href="services.html">Services <span class="sr-only">Services</span></a>
         </li>
         <li class="nav-item mr-2">
             <a class="nav-link" href="recruitment.html">Recruitment <span class="sr-only">Recruitment</span></a>
         </li>
-        <li class="nav-item mr-2">
+        <li class="active nav-item mr-2">
             <a class="nav-link" href="gallery.html">Gallery <span class="sr-only">Gallery</span></a>
         </li>
     </ul>
@@ -47,76 +47,27 @@
 </nav>
 
 <!-- Main Section -->
-<!-- Jumbotron -->
-<div class="jumbotron jumbotron-fluid about-jumbotron">
+<div class="gallery-row">
+  <div class="gallery-column">
+    <img src="wedding.jpg">
+    <img src="rocks.jpg">
+    <img src="falls2.jpg">
+    <img src="paris.jpg">
+  </div>
+  <div class="column">
+    <img src="underwater.jpg">
+    <img src="ocean.jpg">
+    <img src="wedding.jpg">
+    <img src="mountainskies.jpg">
+  </div>
+  <div class="column">
+    <img src="wedding.jpg">
+    <img src="rocks.jpg">
+    <img src="falls2.jpg">
+    <img src="paris.jpg">
+  </div>
 
 </div>
-
-<!-- About Us -->
-<div class="container-wrapper">
-    <div class="container features-container content-container">
-        <section class="features"> 
-            <div class="row">
-                <div class="col-12 col-sm-12 page-header">
-                    <h2 class="heading uppercase">About Us!</h2>
-                    <hr class="block-divider block-divider--orange block-divider--short">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                    <div class="features">
-                        <p class="about-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum quam vitae placerat cursus. 
-                            Nulla porttitor, quam a tincidunt sollicitudin, turpis elit mollis nunc, in sagittis tellus tellus et nisl. Proin nec accumsan ligula. 
-                            Cras eget orci a neque aliquam euismod ac sed ligula. Proin et orci rutrum, maximus turpis sed, fermentum ligula. 
-                            Curabitur at velit ac ex vehicula sodales eu et leo. Aliquam in cursus est. Etiam non dolor blandit sapien mattis placerat. 
-                            Donec eget imperdiet quam, id luctus turpis. Nam vitae mi vel libero pretium dignissim quis at risus. Ut et dolor augue. 
-                            Proin in dolor justo. Sed luctus, purus sed scelerisque porta, lacus tortor luctus massa, sed consectetur erat lectus eu eros. 
-                            In quam nunc, cursus eget erat eu, porta elementum massa.we are this and that</p>
-                    </div>
-                </div>
-            </div>
-            <hr class="section-divider">
-<!-- Location -->
-            <div class="row">
-                <div class="col-12 col-sm-12 page-header">
-                    <h2 class="heading uppercase">Where are we? </h2>
-                    <hr class="block-divider block-divider--orange block-divider--short">
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12 col-sm-12">
-                    <div class="features">
-                        <p class="about-paragraph">
-                            You can find us at N1 Blackpole Industrial Estate East, Blackpole, Worcestershire, WR3 8SG.
-                            <br>
-                            Use the map below to find directions!  
-
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="mapouter">
-                <div class="gmap_canvas">
-                    <iframe width="1200" height="500" id="gmap_canvas" 
-                        src="https://maps.google.com/maps?q=N1%20Blackpole%20Industrial%20Estate%20East%2C%20Blackpole%2C%20Worcestershire%2C%20WR3%208SG&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                        frameborder="0" 
-                        scrolling="no" 
-                        marginheight="0" 
-                        marginwidth="0">
-                    </iframe>
-                </div>
-
-            </div>
-        </section>
-    </div>
-</div>
-
-
-
 <!-- Footer -->
 <footer class="container-fluid ">
         <div id="footer-details" class="row">
@@ -133,7 +84,7 @@
                 <h5 class="uppercase footer-header"><i class="fas fa-phone"></i> Contact Information</h5>
                 <p class="inline-block footer-paragraph">
                 Phone us: 01905 123456 <br>
-                Alternatively, <a class="footer-email footer-paragraph" href="mailto:here@there.com">email us! </a>
+                Alternatively, <a class="footer-email footer-paragraph" href="mailto:here@there.com"><span class="sr-only">email@willmoreconstruction.com</span>email us! </a>
 
                 </p>
             </div>
@@ -141,19 +92,19 @@
                 <h5 class="uppercase footer-header"><i class="fas fa-user-circle"></i> Social Media</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="facebook.com" rel="nofollow">
                             <i class="fab fa-facebook-square"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.linkedin.com/">
+                        <a target="_blank" href="https://www.linkedin.com/" rel="nofollow">
                             <i class="fab fa-linkedin"></i>
                             <span class="sr-only">Linkedin</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com//">
+                        <a target="_blank" href="https://www.instagram.com//" rel="nofollow">
                             <i class="fab fa-instagram"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
@@ -162,7 +113,6 @@
             </div>
         </div>
     </footer>
-
 <!-- scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
