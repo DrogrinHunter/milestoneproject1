@@ -52,7 +52,7 @@ body {
 }
 .jumbotron-heading {
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: #00408a;
     font-weight: 600
     
 }
@@ -283,11 +283,11 @@ footer {
 }
 
 /* -----------------------------About Page */
-.jumbotron-image {
-    background-image: url(../images/jumbotron-image.jpg);
-    background-color: #39FF14;
-    background-repeat: no-repeat;
-    background-size: auto;
+.about-jumbotron {
+    background-image: url(../images/safety-helmets.jpg);
+    background-color: #f8bf84;
+    background-repeat: no-repeat ;
+    background-size: cover;
     
 
 }
@@ -323,6 +323,42 @@ footer {
     height:500px;
     width:1100px;
 }
+
+
+/* -----------------------------Recruitment */
+
+.recruitment-jumbotron{
+    background-image: url(../images/wall-background.jpg);
+    background-color: #f8bf84;
+    background-repeat: no-repeat ;
+    background-size: 100% auto;
+
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #ff6b07;
+}
+
+#send-cv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    height: auto
+}
+
+
+
+
+/* -----------------------------Media Screen */
 
 @media screen and (max-width: 414px) {
     .mapouter {
