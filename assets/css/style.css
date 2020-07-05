@@ -355,8 +355,15 @@ button[type="submit"] {
     height: auto
 }
 
+.features ul li {
+    font-family: 'Open Sans', sans-serif;
+    color: #00408a;
+    text-align: left;
+}
 
-
+.features ul {
+    text-align: center;
+}
 
 /* -----------------------------Media Screen */
 
