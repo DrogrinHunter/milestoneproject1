@@ -291,7 +291,7 @@ footer {
 
 /* -----------------------------About Page */
 .about-jumbotron {
-    background-image: url(../images/safety-helmets.jpg);
+    background-image: url("https://i.imgur.com/klYZqxb.jpg");
     background-color: #f8bf84;
     background-repeat: no-repeat ;
     background-size: cover;
@@ -335,7 +335,7 @@ footer {
 /* -----------------------------Recruitment */
 
 .recruitment-jumbotron{
-    background-image: url(../images/wall-background.jpg);
+    background-image: url("https://i.imgur.com/pwRI4v0.jpg");
     background-color: #f8bf84;
     background-repeat: no-repeat ;
     background-size: 100% auto;
@@ -375,7 +375,7 @@ button[type="submit"] {
 /* -----------------------------Services */
 
 .services-jumbotron{
-    background-image: url(../images/brickwork.jpg);
+    background-image: url("https://i.imgur.com/CJKhIOv.jpg");
     background-color: #f8bf84;
     background-repeat: no-repeat ;
     background-size: 100% auto;
@@ -396,22 +396,19 @@ button[type="submit"] {
 }
 
 /* -----------------------------Gallery */
-.gallery-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+#gallery-photos {
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap:   0px;
+    -moz-column-count:    5;
+    -moz-column-gap:      0px;
+    column-count:         5;
+    column-gap:           0px; 
 }
 
-.gallery-column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.gallery-column img {
-    margin-top: 8px;
-    vertical-align: middle;
+#gallery-photos img {
     width: 100%;
+    height: auto;
 }
 
 /* -----------------------------Media Screen */
@@ -426,16 +423,36 @@ button[type="submit"] {
     }
 }
 
-@media screen and (max-width: 800px) {
-  .gallery-column {
-    flex: 50%;
-    max-width: 50%;
+
+@media (max-width: 1200px) {
+  #gallery-photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #gallery-photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #gallery-photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #gallery-photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .gallery-column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
+
+
+
