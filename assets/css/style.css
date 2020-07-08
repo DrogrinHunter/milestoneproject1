@@ -9,7 +9,7 @@ body {
 .heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #ff6b07;
+    color: #f86603 ;
 }
 
 .paragraph-text {
@@ -42,7 +42,7 @@ body {
 
 .footer-header {
     font-family: 'Poppins', sans-serif;
-    color: #ff6b07;
+    color: #f86603  ;
     text-align: center;
 }
 
@@ -59,14 +59,14 @@ body {
 
 .jumbotron-paragraph {
     font-family: 'Open Sans', sans-serif;
-    color: #ff6b07;
+    color: #f86603  ;
     font-weight: 500;
 }
 
 .services-heading {
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    color: #ff6b07;
+    color: #f86603  ;
     text-align: center;
 }
 /* -----------------------------alert bar */
@@ -90,7 +90,7 @@ body {
 .site-wide-alert a:hover {
     text-decoration: underline;
     text-decoration-color: white;
-    color: #ff6b07;
+    color: #f86603 ;
 }
 
 .alert-container .col-12 {
@@ -136,7 +136,7 @@ body {
 }
 
 .navbar-light .navbar-brand {
-    color: #ff6b07;
+    color: #ff9400 ;
 }
 .navbar-light .navbar-brand:hover {
     color: #8B4513;
@@ -201,7 +201,7 @@ body {
 }
 
 .container-wrapper--orange {
-    background-color: #ff6b07;
+    background-color: #f86603  ;
     color: white;
 }
 
@@ -222,7 +222,7 @@ body {
 }
 
 .block-divider--orange {
-    background-color: #ff6b07;
+    background-color: #f86603  ;
 }
 
 .block-divider--short {
@@ -269,7 +269,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #ff6b07;
+    background: #ff9400 ;
 }
 
 #footer-details {
@@ -286,7 +286,7 @@ footer {
 .footer-email:hover {
     text-decoration: underline;
     text-decoration-color: white;
-    color: #ff6b07;
+    color: #f86603  ;
 }
 
 /* -----------------------------About Page */
@@ -351,8 +351,8 @@ footer {
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #ff6b07;
+    color: #000000;
+    background-color: #f86603  ;
 }
 
 #send-cv {
@@ -384,7 +384,7 @@ button[type="submit"] {
 
 .services-link-to-gallery {
     text-decoration: underline;
-    text-decoration-color: #ff6b07;
+    text-decoration-color: #f86603  ;
     color: #00408a;
 }
 .services-link-to-gallery:hover {
@@ -396,6 +396,7 @@ button[type="submit"] {
 }
 
 /* -----------------------------Gallery */
+
 #gallery-photos {
     line-height: 0;
     -webkit-column-count: 5;
@@ -411,6 +412,7 @@ button[type="submit"] {
     height: auto;
 }
 
+
 /* -----------------------------Media Screen */
 
 @media screen and (max-width: 414px) {
@@ -424,34 +426,7 @@ button[type="submit"] {
 }
 
 
-@media (max-width: 1200px) {
-  #gallery-photos {
-  -moz-column-count:    4;
-  -webkit-column-count: 4;
-  column-count:         4;
-  }
-}
-@media (max-width: 1000px) {
-  #gallery-photos {
-  -moz-column-count:    3;
-  -webkit-column-count: 3;
-  column-count:         3;
-  }
-}
-@media (max-width: 800px) {
-  #gallery-photos {
-  -moz-column-count:    2;
-  -webkit-column-count: 2;
-  column-count:         2;
-  }
-}
-@media (max-width: 400px) {
-  #gallery-photos {
-  -moz-column-count:    1;
-  -webkit-column-count: 1;
-  column-count:         1;
-  }
-}
+
 
 
 

@@ -14,6 +14,14 @@
       crossorigin="anonymous"/>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+    
+    
+    
+    
+   
+
     <link rel="shortcut icon" href="favicon.ico">
 </head>
 <body>
@@ -48,23 +56,53 @@
 </nav>
 
 <!-- Main Section -->
+
+<!-- Fancy Box Gallery -->
 <section id="gallery-photos">
-    <img src="https://i.imgur.com/cMuLKDc.jpg" alt="decorating with dog">
-    <img src="https://i.imgur.com/De60xPH.jpg" alt="labourer on roof">
-    <img src="https://i.imgur.com/SNVMRRC.jpg" alt="colour swatches">
-    <img src="https://i.imgur.com/mbO4dqu.jpg" alt="pressing concrete into mould">
-    <img src="https://i.imgur.com/H3NYusn.jpg" alt="labourers on roof">
-    <img src="https://i.imgur.com/7e55kCC.jpg" alt="labourer drilling hole in wood">
-    <img src="https://i.imgur.com/mfxpG6o.jpg" alt="hammer">
-    <img src="https://i.imgur.com/bsMv0NN.jpg" alt="sander">
-    <img src="https://i.imgur.com/8G3LSuv.jpg" alt="grinder">
-    <img src="https://i.imgur.com/NiXEz9i.jpg" alt="outside doors on industrial building">
-    <img src="https://i.imgur.com/AAVwEpr.jpg" alt="paintbrush">
-    <img src="https://i.imgur.com/c6VVVMI.jpg" alt="drilling bracket into wood">
-    <img src="https://i.imgur.com/1fmRriW.jpg" alt="forklift">
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/blue-doors-about-us.jpg">
+
+    <img src="assets/images/thumbnail-images/blue-doors-about-us-small.jpg" 
+    alt="outside doors on industrial building" width="200" height="300"/>
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/blue-paint-brush.jpg">
+    <img src="assets/images/thumbnail-images/blue-paint-brush-small.jpg" 
+    alt="blue paintbrush" width="300" />
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/cement-pouring.jpg">
+    <img src="assets/images/thumbnail-images/cement-pouring-small.jpg" 
+    alt="pressing concrete into mould" width="300"/>
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/hammer.jpg">
+    <img src="assets/images/thumbnail-images/hammer-small.jpg" 
+    alt="hammer" width="300" />
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/men-on-site.jpg">
+    <img src="assets/images/thumbnail-images/men-on-site-small.jpg" 
+    alt="labourers on roof" width="300"/>
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/colour-swatches.jpg">
+    <img src="assets/images/thumbnail-images/colour-swatches-small.jpg" 
+    alt="color swatches" width="300" />
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/person-holding-grinder.jpg">
+    <img src="assets/images/thumbnail-images/person-holding-grinder-small.jpg" 
+    alt="person holding grinder" width="300" />
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/orange-walls-cherry-lift.jpg">
+    <img src="assets/images/thumbnail-images/orange-walls-cherry-lift-small.jpg" 
+    alt="Forklift" width="300"/>
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/drilling-hole-in-wood.jpg">
+    <img src="assets/images/thumbnail-images/drilling-hole-in-wood-small.jpg" 
+    alt="drilling hole in wood" width="300" />
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/dog-decorating.jpg">
+    <img src="assets/images/thumbnail-images/dog-decorating-small.jpg" alt="dog in room whilst decorating" width="300" />
+</a>
+<a class="fancybox-thumb gallery-fancybox" data-fancybox="gallery" href="assets/images/person-hammering-in-roof.jpg">
+    <img src="assets/images/thumbnail-images/person-hammering-in-roof-small.jpg" alt="person hammering in the roof" width="300" />
+</a>
 </section>
-
-
 <!-- Footer -->
 <footer class="container-fluid ">
         <div id="footer-details" class="row">
@@ -120,5 +158,24 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
     crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+ <!-- Javascript for Fancy Box -->
+<script type="text/javascript">
+
+(function($){
+
+    $(document).ready(function(){
+        $('.lightbox').fancybox({
+	    openEffect  : "slide",
+        closeEffect : "fade",
+        type : "image"
+        });  
+
+    })(jquery)
+  
+</script>
+
+
 </body>
 </html>
