@@ -15,13 +15,13 @@ A live demo can be found [here](https://drogrinhunter.github.io/milestoneproject
  
  As a potential employee of the company, I expect to see a varient of potential roles and the ability to apply for a role with the capability of attaching a CV.
 
- ![Recruitment Opportunities](assets/images/read-me/recruitment-opportunities.png "Recruitment Opportunities")
+ ![Recruitment Opportunities](assets/images/readme-images/recruitment-opportunities.png "Recruitment Opportunities")
 
  As a business, I expect to be able to see what the company is about and their location should I wish to give them my business.
 
- ![About Us](assets/images/read-me/about-us.png "About Us")
- ![Location](assets/images/read-me/location.png "Location")
- 
+ ![About Us](assets/images/readme-images/about-us.png "About Us")
+ ![Location](assets/images/readme-images/location.png "Location")
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
