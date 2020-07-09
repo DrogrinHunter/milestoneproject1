@@ -1,9 +1,16 @@
-# Your Project's Name
+# Willmore Construction
 
-One or two paragraphs providing an overview of your project.
+Project One : User-Centric Frontend Development - Code Institute
 
-Essentially, this part is your sales pitch.
- 
+Willmore Construction has been made for a company that require an update on their current website. 
+
+It allows customers to see what type of company they are, it allows potential employees to see if they are recruiting and it allows people to see examples of their work.
+
+## Demo
+A live demo can be found [here] (https://drogrinhunter.github.io/milestoneproject1/index.html).
+
+![Desktop Demo](assets/images/readme-images/screen-gif.gif "Desktop Demo")
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
