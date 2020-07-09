@@ -15,7 +15,7 @@ A live demo can be found [here](https://drogrinhunter.github.io/milestoneproject
  
  As a potential employee of the company, I expect to see a varient of potential roles and the ability to apply for a role with the capability of attaching a CV.
 
- ![Recruitment Opportunities](assets/images/readme-images/recruitment-opportunities.png "Recruitment Opportunities")
+ ![Recruitment Opportunities](assets/images/readme-images/recruitment-opportunities.PNG "Recruitment Opportunities")
 
  As a business, I expect to be able to see what the company is about and their location should I wish to give them my business.
 
@@ -24,18 +24,30 @@ A live demo can be found [here](https://drogrinhunter.github.io/milestoneproject
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website uses many different features: 
+* Index - the "Home" page features a Carousel that allows the user to click through three different images with captions. This is a brief view of what the company does.
+* About Us - the "About Us" page features a Google Maps API which is fully customizable to the users location. It allows them to find nearby locations that they might know to use for comparison.
+* Recruitment - the "Recruitment" page allows potential employees to search for any roles that are available and to contact the business and send their CV in for consideration.
+* Gallery - the "Gallery" page allows users to see examples of previous work done by the company. They can click on a picture as a single image whilst also allowing them to see all pictures at once.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-- Another feature idea
+In the future, I would like to add different animations to the "Gallery" page allowing for different user experiences. 
+
+### Strategy
+My goal in the design was to make it easy for people to access information whilst aiming for a minimalistic and user-friendly design.
+
+### Scope
+For customers, I wanted to provide them with a easy way to see what the company was about as well as see examples of their work which was the reason for the carousel on the index page.
+For potential employees, I wanted to be able to provide them with an easy way to see whether they had any roles available hence the alert bar on the Index page.
+
+### Structure 
+In the "Services" page, I wanted customers to be able to see quickly what type of solutions the company can assist with.
+
+### Skeleton
+[Initial Wireframe](assets/images/readme-images/initial-mockup.pdf "Initial Mockup"){:target="_blank"}
+
+### Surface
+The blue / orange colour scheme was chosen to allow to differentiate between title and content easily. 
 
 ## Technologies Used
 
@@ -43,13 +55,23 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - The project uses **HTML 5** for it's main content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+    - The project uses **CSS** for it's design and styling.
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** for it's responsiveness for mobile design. 
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+The customer and potential employee user story achieved the intended outcome by providing them with a showcase of both examples of the company as well as potential roles.
+In the "Home" page, customers are able to see a few examples of work that the company have done, this is done by the Bootstrap Carousel with captions about the images. They are also able see quotes provided by other companies which provides a positive experience for the customer as it means that they don't have to search around the website for this information.
+In the "About Us" page, both customers and candidates can read the story of how the company came to fruition and what they are about. It also allows them to find out where the company is located and near by surroundings.
+In the "Services" page, it has a brief overview of what services the company provides, this is done via clicking the link in the navigation bar which provides another positive experience for users. They can also go straight to examples of the work, this is done by the link provided.
+In the "Recruitment" page, it allows candidates to easily see whether the company has any roles that they can apply for. It allows for a positive experience as they are able to use a contact form to contact the business with their details but they are also able to submit their CV without needing to submit a long form with previous experiences making the time applying for a job shorter. Candidates will then get a confirmation popup from the browser advising that the submission form has gone through which allows for a positive experience as they will not need to stress about whether the form has submitted or not.
+In the "Gallery" page, both customers and candidates can easily see a collection of images which shows what services have been completed previously. The positive experience comes from the user being able to click on a single image which will enlarge and allow the user to search and examine the images; it will also allow them to go through the images using the arrow keys on their keyboards.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
