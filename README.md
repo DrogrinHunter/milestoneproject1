@@ -19,8 +19,8 @@ A live demo can be found [here](https://drogrinhunter.github.io/milestoneproject
 
  As a business, I expect to be able to see what the company is about and their location should I wish to give them my business.
 
- ![About Us](assets/images/readme-images/about-us.png "About Us")
- ![Location](assets/images/readme-images/location.png "Location")
+ ![About Us](assets/images/readme-images/about-us.PNG "About Us")
+ ![Location](assets/images/readme-images/location.PNG "Location")
 
 ## Features
 
@@ -44,14 +44,12 @@ For potential employees, I wanted to be able to provide them with an easy way to
 In the "Services" page, I wanted customers to be able to see quickly what type of solutions the company can assist with.
 
 ### Skeleton
-[Initial Wireframe](assets/images/readme-images/initial-mockup.pdf "Initial Mockup"){:target="_blank"}
+[Initial Wireframe](assets/images/readme-images/initial-mockup.pdf "Initial Mockup")
 
 ### Surface
 The blue / orange colour scheme was chosen to allow to differentiate between title and content easily. 
 
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
     - The project uses **JQuery** to simplify DOM manipulation.
@@ -61,52 +59,62 @@ In this section, you should mention all of the languages, frameworks, libraries,
     - The project uses **CSS** for it's design and styling.
 - [Bootstrap](https://getbootstrap.com/)
     - The project uses **Bootstrap** for it's responsiveness for mobile design. 
-
+- [Fancy Box](https://fancyapps.com/fancybox/3/)
+    - The project uses **Fancy Box** for the gallery.
+- [Font Awesome](https://fontawesome.com/)
+    - The project uses **Font Awesome** for icons.
 
 ## Testing
+- Home Page 
+    - Carousel - this has been tested by clicking the arrows to see if image moves onto the next image. This has also been tested to ensure that the left arrows goes back an image, right arrow goes forward an image.
+    - Alert Bar - There is a link to the recruitment page, this has been tested to ensure that it links to the specific page.
+- About Us Page 
+    - There is an API to Google Maps, this has been tested to ensure that the map loads to the location specified. It has also been tested to ensure that you can scroll on the map to zoom in and out.
+- Services Page
+    - There is a link to the Gallery page, this has been tested to ensure that it links to the Gallery page as specified.
+- Recruitment Page 
+    - There is a contact form, this has been tested by doing the below:
+        - Try to submit the empty form and verify that an error message about the required fields appears
+        - Try to submit the form with an invalid email address and verify that a relevant error message appears
+        - Try to submit the form with all inputs valid and verify that a success message appears.
+- Gallery Page
+    - Fancy Box has been added for the gallery section, this has been tested to ensure that when you click an image it zooms in to one particular image. This has also been tested to ensure that the left arrows goes back an image, right arrow goes forward an image.
+- Footer
+    - There are social media links which have a Font Awesome icons instead of text, these have been tested to ensure that you can go to the specific website.
+    - All external links open in a new tab which has been achieved by adding `target="_blank"`.
 
-The customer and potential employee user story achieved the intended outcome by providing them with a showcase of both examples of the company as well as potential roles.
-In the "Home" page, customers are able to see a few examples of work that the company have done, this is done by the Bootstrap Carousel with captions about the images. They are also able see quotes provided by other companies which provides a positive experience for the customer as it means that they don't have to search around the website for this information.
-In the "About Us" page, both customers and candidates can read the story of how the company came to fruition and what they are about. It also allows them to find out where the company is located and near by surroundings.
-In the "Services" page, it has a brief overview of what services the company provides, this is done via clicking the link in the navigation bar which provides another positive experience for users. They can also go straight to examples of the work, this is done by the link provided.
-In the "Recruitment" page, it allows candidates to easily see whether the company has any roles that they can apply for. It allows for a positive experience as they are able to use a contact form to contact the business with their details but they are also able to submit their CV without needing to submit a long form with previous experiences making the time applying for a job shorter. Candidates will then get a confirmation popup from the browser advising that the submission form has gone through which allows for a positive experience as they will not need to stress about whether the form has submitted or not.
-In the "Gallery" page, both customers and candidates can easily see a collection of images which shows what services have been completed previously. The positive experience comes from the user being able to click on a single image which will enlarge and allow the user to search and examine the images; it will also allow them to go through the images using the arrow keys on their keyboards.
+The website has been tested across multiple browsers (Google Chrome, Safari, Firefox) and on multiple mobile devices (iPhone XR, iPhone 6,7,8 Plus and iPad Mini) to ensure compatability and responsiveness.
 
+During the testing phase, I noticed that the "Alert Bar" took up too much of the viewpoint when testing on a mobile devices, for that reason I decided not to display it on devices smaller.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+I also noticed that the Maps API caused the page to not fit in the viewpoint on a mobile device so to fix it, I added a `@media` query and added the class into that query and added `display: none;` to resolve the issue.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+All Jumbotron images have been removed on media devices using the `@media` query and added `display: none;` - this is due to the images appearing blurred and zoomed-in on certain media devices.
 
 ## Deployment
+The website has been hosted using GitHub pages and it has been deployed directly from the Master Branch.
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Once deployed, the site will automatically update upon new commits to the Master Branch. In order for the website to deploy correctly, the landing page (Home Page) must be named `index.html`.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+To run locally, the repository can be clone directly into an editor of your choice by using `git clone https://github.com/DrogrinHunter/milestoneproject1.git` in the terminal.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+Some of the content in this website has been provided by [Bourne Site Services](http://www.bournesiteservices.co.uk/) for use in this website only.
+All other content has been written by myself.
 
 ### Media
-- The photos used in this site were obtained from ...
+Majority of the images have been taken from [Pexels](https://www.pexels.com/) which is a stock image library.
+Some images have been provided by [Bourne Site Services](http://www.bournesiteservices.co.uk/) for use in this website only.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Carousel
+    - This was provided by Bootstrap, ttutorial on how to use can be found [here](https://getbootstrap.com/docs/4.5/components/carousel/).
+- Google Maps API
+    - This was provided by Google/W3Schools, tutorial on how to use can be found [here](https://www.w3schools.com/graphics/google_maps_intro.asp).
+- Browser Confirmation
+    - This has been provided by W3Schools, tutorial on how to use can be found [here](https://www.w3schools.com/jsref/met_win_confirm.asp).
+- Fancy Box
+    - This has been provided by Fancy Apps, tutorial on how to use can be found [here](https://fancyapps.com/fancybox/3/).
