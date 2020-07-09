@@ -91,6 +91,11 @@ I also noticed that the Maps API caused the page to not fit in the viewpoint on 
 
 All Jumbotron images have been removed on media devices using the `@media` query and added `display: none;` - this is due to the images appearing blurred and zoomed-in on certain media devices.
 
+
+All testing has been via Google Developer Tools, as part of that testing I carried out a Google Lighthouse report, please see below for the scores.
+
+![Google Lighthouse](assets/images/readme-images/google-lighthouse.PNG "Google Lighthouse")
+
 ## Deployment
 The website has been hosted using GitHub pages and it has been deployed directly from the Master Branch.
 
