@@ -456,4 +456,21 @@ button[type="submit"] {
     .gallery-column img {
         height: 75%;
     }
+
+    .carousel-row {
+        height: 75%;
+    }
+
+    .carousel-item img {
+        height: 75%;
+    }
+
+    .carousel-caption h4 {
+        display: none;
+    }
+
+    .media img {
+        display: none;
+    }
+
 }
