@@ -42,7 +42,7 @@ body {
 
 .footer-header {
     font-family: 'Poppins', sans-serif;
-    color: #f86603  ;
+    color: #FC9B59  ;
     text-align: center;
 }
 
@@ -136,7 +136,7 @@ body {
 }
 
 .navbar-light .navbar-brand {
-    color: #ff9400 ;
+    color: #FC9B59 ;
 }
 .navbar-light .navbar-brand:hover {
     color: #8B4513;
@@ -147,6 +147,15 @@ body {
     text-decoration-color: white;
     color: #fafafa;
 
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fafafa;
+}
+.active a {
+    text-decoration: underline;
+    text-decoration-color: white;
+    color: #fafafa;
 }
 
 /* -----------------------------Carousel */
@@ -402,7 +411,7 @@ button[type="submit"] {
 .gallery-column {
     float: left;
     width: 50%;
-    padding-left: 200px;
+    padding-left: 300px;
     padding-bottom: 10px;
     margin-right: 0px;
 
@@ -418,6 +427,14 @@ button[type="submit"] {
     content: "";
     display: table;
     clear: both;
+}
+
+.gallery-fancybox img {
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
 }
 
 /* -----------------------------Media Screen */
