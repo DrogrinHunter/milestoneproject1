@@ -27,9 +27,10 @@ A live demo can be found [here](https://drogrinhunter.github.io/milestoneproject
 The website uses many different features: 
 * Index - the "Home" page features a Carousel that allows the user to click through three different images with captions. This is a brief view of what the company does.
 * About Us - the "About Us" page features a Google Maps API which is fully customizable to the users location. It allows them to find nearby locations that they might know to use for comparison.
+* Services - the "Services" page features the different type of work that the company can provide for the customer. It features a link for customers to see examples of previous
 * Recruitment - the "Recruitment" page allows potential employees to search for any roles that are available and to contact the business and send their CV in for consideration.
 * Gallery - the "Gallery" page allows users to see examples of previous work done by the company. They can click on a picture as a single image whilst also allowing them to see all pictures at once.
- 
+
 ### Features Left to Implement
 In the future, I would like to add different animations to the "Gallery" page allowing for different user experiences. 
 
