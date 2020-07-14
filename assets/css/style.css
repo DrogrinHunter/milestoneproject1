@@ -398,25 +398,11 @@ button[type="submit"] {
 
 /* -----------------------------Gallery */
 
-#gallery-photos {
-    line-height: 0;
-    -webkit-column-count: 5;
-    -webkit-column-gap:   0px;
-    -moz-column-count:    5;
-    -moz-column-gap:      0px;
-    column-count:         5;
-    column-gap:           0px; 
-}
-
-#gallery-photos img {
-    width: 100%;
-    height: auto;
-}
 
 .gallery-column {
     float: left;
     width: 50%;
-    padding-left: 100px;
+    padding-left: 200px;
     padding-bottom: 10px;
     margin-right: 0px;
 
@@ -424,8 +410,8 @@ button[type="submit"] {
 
 .gallery-column img {
     margin-top: 12px;
-    width: 75%;
-    height: 400px;
+    width: 50%;
+    height: 200px;
 }
 
 .gallery-row:after {
