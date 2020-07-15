@@ -12,21 +12,17 @@ A live demo can be found [here](https://drogrinhunter.github.io/milestoneproject
 ![Desktop Demo](assets/images/readme-images/screen-gif.gif "Desktop Demo")
 
 ## UX
- 
- As a potential employee of the company, I expect to see a varient of potential roles and the ability to apply for a role with the capability of attaching a CV.
+### Who is the website for? 
+The website has multiple uses, one of the uses is for customers to see what type of company they are going into business with, being able to see the services that they offer and any examples.
 
- ![Recruitment Opportunities](assets/images/readme-images/recruitment-opportunities.PNG "Recruitment Opportunities")
-
- As a business, I expect to be able to see what the company is about and their location should I wish to give them my business.
-
- ![About Us](assets/images/readme-images/about-us.PNG "About Us")
- ![Location](assets/images/readme-images/location.PNG "Location")
+The other use that the website has is for people to see whether the company has any vacancies available and the ability to apply for them via the website directly. 
 
 ## Features
 
 The website uses many different features: 
 * Index - the "Home" page features a Carousel that allows the user to click through three different images with captions. This is a brief view of what the company does.
 * About Us - the "About Us" page features a Google Maps API which is fully customizable to the users location. It allows them to find nearby locations that they might know to use for comparison.
+    *  ![Location](assets/images/readme-images/location.PNG "Location")
 * Services - the "Services" page features the different type of work that the company can provide for the customer. It features a link for customers to see examples of previous
 * Recruitment - the "Recruitment" page allows potential employees to search for any roles that are available and to contact the business and send their CV in for consideration.
 * Gallery - the "Gallery" page allows users to see examples of previous work done by the company. They can click on a picture as a single image whilst also allowing them to see all pictures at once.
