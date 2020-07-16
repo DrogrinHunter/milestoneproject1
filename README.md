@@ -98,6 +98,7 @@ The website has been hosted using GitHub pages and it has been deployed directly
 
 Once deployed, the site will automatically update upon new commits to the Master Branch. In order for the website to deploy correctly, the landing page (Home Page) must be named `index.html`.
 
+### Local Development
 To run locally, the repository can be clone directly into an editor of your choice by using `git clone https://github.com/DrogrinHunter/milestoneproject1.git` in the terminal.
 
 ## Credits
